@@ -1,0 +1,32 @@
+{
+  "name": "starfish/core",
+  "type": "library",
+  "description": "Starfish core Library",
+  "license": "MIT",
+  "keywords": ["starfish", "fishead", "connector"],
+  "homepage": "https://github.com/wizardshankar/fishead_core.git",
+  "authors": [
+    {
+      "name": "Naga",
+      "email": "naga@fishead.com.au"
+    },
+    {
+      "name": "Starfishplatform",
+      "homepage": "https://github.com/wizardshankar/fishead_core.git/contributors"
+    }
+  ],
+  "require": {
+    "php": "^5.5.9|>=7.0.8",
+    "symfony/http-foundation": "~3.0|~4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": { "Starfish\\": "lib/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Starfish\\Tests\\": "tests/" }
+  }
+  }
+}
