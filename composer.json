@@ -28,5 +28,4 @@
   "autoload-dev": {
     "psr-4": { "Starfish\\Tests\\": "tests/" }
   }
-  }
 }
