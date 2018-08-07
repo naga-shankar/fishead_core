@@ -25,7 +25,7 @@
  * @license    http://ecommerce.fishead.com/fishead-LICENSE.txt
  * @author     naga
  */
-namespace SPF\Core\Document;
+namespace SFP\Core\Document;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 use FOS\UserBundle\Model\User as BaseUser;
 /**
